@@ -1,3 +1,5 @@
+Domain,Executable
+default,/usr/bin/firefox
 github.com,/usr/bin/firefox
 youtube.com,chromium-browser
 example.com,~/bin/yourscript.sh
