@@ -22,7 +22,7 @@ with open('openbydomain.csv') as csvfile:
 
 if 'default' not in dispatch_dict:
     print('No default executable in config', file=sys.stderr)
-    exit()
+    exit(1)
 
 executable = dispatch_dict.get(domain, dispatch_dict['default'])
 subprocess.Popen([executable, sys.argv[1]])
